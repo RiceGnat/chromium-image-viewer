@@ -1,0 +1,19 @@
+{
+  "name": "chromium-image-viewer",
+  "version": "0.0.1",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "is-image": "^3.0.0"
+  },
+  "devDependencies": {
+    "electron": "^9.2.1",
+    "electron-packager": "^15.1.0"
+  },
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . --out bin --overwrite"
+  },
+  "author": "",
+  "license": "ISC"
+}
